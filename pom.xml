@@ -52,10 +52,6 @@
 			<configuration>
 				<goals>checkout</goals>
 				<checkoutDirectory>target/</checkoutDirectory>
-				<!--
-				<baseDir>target/</baseDir>
-				<exportDirectory>target/</exportDirectory>
-				-->
 				<useExport>false</useExport>
 				<connectionType>connection</connectionType>
 				<connectionUrl>${wcas-core-scm-url}</connectionUrl>
