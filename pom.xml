@@ -55,7 +55,7 @@
 				<useExport>false</useExport>
 				<connectionType>connection</connectionType>
 				<connectionUrl>${wcas-core-scm-url}</connectionUrl>
-				<scmVersion>${wcas-core-version}</scmVersion>
+				<scmVersion>${wcas-core-version}</scmVersion> <!-- branch name -->
 				<scmVersionType>tag</scmVersionType> <!-- branch/tag/revision -->
 				<excludes>
 					/src/main/java/com/**,
